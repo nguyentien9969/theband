@@ -1,0 +1,40 @@
+@media (max-width : 740px){
+    #nav,#nav > li {
+        display: block;
+    }
+    #header {
+    overflow: hidden; 
+    }    
+    #header .button-search {
+        display: none;
+    }
+    #header .menu-search{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #nav li:first-child {
+        display: inline-block;
+    }
+    #nav .subnav {
+        background-color: black;
+        position: initial;
+    }
+    #nav .subnav a {
+        color: white;
+        padding: 0 37px;
+    }
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #slider {
+        margin-top: auto;
+    }
+}
+
+@media (min-width:740px){
+    #header .menu-search {
+        display: none;
+    }
+}
