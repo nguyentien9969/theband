@@ -211,9 +211,9 @@
        
        modalClose.addEventListener('click', hideBuytickets)
        modal.addEventListener('click', hideBuytickets)
-       modalcontainer.addEventListener('click',function(event)){
+       modalcontainer.addEventListener('click',function(event){
             event.stopPropagation()
-        }
+        })
        
         var header = document.getElementById('header')
         var mobileMenu = document.getElementById('mobile-menu')
